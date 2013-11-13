@@ -1,0 +1,66 @@
+#output {
+	font-family: Arial Rounded MT Bold;
+	font-size: 30px;
+	width: 250px;
+	text-shadow: 3px 2px 0px #31AFF5;
+	margin-left: 430px;
+	text-align:center;
+	}
+	
+#temperature {
+	font-family: Arial Rounded MT Bold;
+	font-size: 30px;
+	text-shadow: 3px 2px 0px #31AFF5;
+	margin-left: 450px;
+	}
+
+img {
+	height: 200px;
+	width: 200px;
+	margin-left: -190px;
+	padding-bottom: 50px;
+	}
+	
+audio {
+	margin-left: 400px;
+	padding-top: 30px;
+	}
+
+	
+#cold /*Very Cold, Cold, Degreas*/{
+	background-color: blue;
+	-webkit-transition:width 2s, background-color 10s;
+	/*It's Cold Outside*/
+	}
+	
+#hot /*Hot, Degreas*/{
+	background-color: red;
+	-webkit-transition:width 2s, background-color 10s;
+	/*It's Getting Hot in Here*/
+	}
+	
+#sunny /*Mostly Sunny, Partly Sunny, Sunny*/{
+	background-color: orange;
+	-webkit-transition:width 2s, background-color 10s;
+	/*I Gotta Pocket Full of Sunshine*/
+	}
+	
+#rain {
+	background-color: blue;
+	-webkit-transition:width 2s, background-color 10s;
+	/*Rain Drops Keep Falling On My Head*/
+	}
+	
+#cloudy {
+	background-color: gainsboro;
+	-webkit-transition:width 2s, background-color 10s;
+	/*Cloudy*/
+	}
+	
+#snow {
+	background-color: white;
+	-webkit-transition:width 2s, background-color 10s;
+	/*Let it Snow*/
+	}
+ 
+
